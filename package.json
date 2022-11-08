@@ -2,7 +2,11 @@
   "name": "homework1.2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "date.js",
+  "bin": {
+    "game": "./game.js",
+    "date": "./date.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/alexeyDevel/homework1.2/issues"
   },
-  "homepage": "https://github.com/alexeyDevel/homework1.2#readme"
+  "homepage": "https://github.com/alexeyDevel/homework1.2#readme",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
 }
